@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[element is matching[[ChromeDriver: chrome on XP (0888f139446fcf68f932caab6e0cf30e)] -> xpath: //span[contains(.,'Username or Password is invalid')]]]]>
+    </line>
+    <line>
+      <![CDATA[element is matching[[ChromeDriver: chrome on XP (0888f139446fcf68f932caab6e0cf30e)] -> xpath: //span[contains(.,'Username or Password is invalid')]]]]>
+    </line>
+    <line>
+      <![CDATA[title is matchingactiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[title is matchingactiTIME - Login]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47098" started-at="2017-08-09T10:12:42Z" finished-at="2017-08-09T10:13:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47098" started-at="2017-08-09T10:12:42Z" finished-at="2017-08-09T10:13:29Z">
+      <class name="com.ecommerce.tests.InvalidLoginLogout">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.ecommerce.tests.InvalidLoginLogout@5383967b]" name="openApp" is-config="true" duration-ms="12097" started-at="2017-08-09T15:42:42Z" finished-at="2017-08-09T15:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLoginLogout()[pri:0, instance:com.ecommerce.tests.InvalidLoginLogout@5383967b]" name="testInvalidLoginLogout" duration-ms="4134" started-at="2017-08-09T15:42:54Z" finished-at="2017-08-09T15:42:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[element is matching[[ChromeDriver: chrome on XP (0888f139446fcf68f932caab6e0cf30e)] -> xpath: //span[contains(.,'Username or Password is invalid')]]]]>
+            </line>
+            <line>
+              <![CDATA[element is matching[[ChromeDriver: chrome on XP (0888f139446fcf68f932caab6e0cf30e)] -> xpath: //span[contains(.,'Username or Password is invalid')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginLogout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.ecommerce.tests.InvalidLoginLogout@5383967b]" name="closeApp" is-config="true" duration-ms="1436" started-at="2017-08-09T15:42:58Z" finished-at="2017-08-09T15:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.ecommerce.tests.InvalidLoginLogout -->
+      <class name="com.ecommerce.tests.VerifyLicensesPage">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.ecommerce.tests.VerifyLicensesPage@4fe3c938]" name="openApp" is-config="true" duration-ms="6785" started-at="2017-08-09T15:43:14Z" finished-at="2017-08-09T15:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testVerifyLicensesPage()[pri:3, instance:com.ecommerce.tests.VerifyLicensesPage@4fe3c938]" name="testVerifyLicensesPage" duration-ms="6820" started-at="2017-08-09T15:43:21Z" finished-at="2017-08-09T15:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLicensesPage -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.ecommerce.tests.VerifyLicensesPage@4fe3c938]" name="closeApp" is-config="true" duration-ms="934" started-at="2017-08-09T15:43:28Z" finished-at="2017-08-09T15:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.ecommerce.tests.VerifyLicensesPage -->
+      <class name="com.ecommerce.tests.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="setDriverPath()[pri:0, instance:com.ecommerce.tests.ValidLoginLogoutTest@5ec0a365]" name="setDriverPath" is-config="true" duration-ms="14" started-at="2017-08-09T15:42:42Z" finished-at="2017-08-09T15:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriverPath -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.ecommerce.tests.ValidLoginLogoutTest@5ec0a365]" name="openApp" is-config="true" duration-ms="6836" started-at="2017-08-09T15:43:00Z" finished-at="2017-08-09T15:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.ecommerce.tests.ValidLoginLogoutTest@5ec0a365]" name="testValidLoginLogout" duration-ms="6938" started-at="2017-08-09T15:43:06Z" finished-at="2017-08-09T15:43:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[title is matchingactiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[title is matchingactiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.ecommerce.tests.ValidLoginLogoutTest@5ec0a365]" name="closeApp" is-config="true" duration-ms="1084" started-at="2017-08-09T15:43:13Z" finished-at="2017-08-09T15:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.ecommerce.tests.ValidLoginLogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
